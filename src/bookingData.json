@@ -1,0 +1,73 @@
+{
+    "vehicleTypes": [
+      {
+        "id": 1,
+        "name": "Sedan"
+      },
+      {
+        "id": 2,
+        "name": "SUV"
+      },
+      {
+        "id": 3,
+        "name": "Truck"
+      }
+    ],
+    "vehicleModels": {
+        "1": [
+          {
+            "id": 11,
+            "name": "Honda Accord",
+            "description": "A reliable mid-size sedan.",
+            "image": "https://example.com/accord.jpg"
+          },
+          {
+            "id": 12,
+            "name": "Toyota Camry",
+            "description": "A comfortable and fuel-efficient sedan.",
+            "image": "https://example.com/camry.jpg"
+          }
+        ],
+        "2": [
+          {
+            "id": 21,
+            "name": "Ford Explorer",
+            "description": "A spacious and powerful SUV.",
+            "image": "https://example.com/explorer.jpg"
+          },
+          {
+            "id": 22,
+            "name": "Honda CR-V",
+            "description": "A versatile and fuel-efficient SUV.",
+            "image": "https://example.com/crv.jpg"
+          }
+        ],
+        "3": [
+          {
+            "id": 31,
+            "name": "Ford F-150",
+            "description": "A full-size pickup truck for heavy-duty tasks.",
+            "image": "https://example.com/f150.jpg"
+          },
+          {
+            "id": 32,
+            "name": "Toyota Tacoma",
+            "description": "A mid-size pickup truck for work or adventure.",
+            "image": "https://example.com/tacoma.jpg"
+          }
+        ]
+      },
+      
+    "bookedDates": [
+   
+      {
+        "startDate": "2024-04-20",
+        "endDate": "2024-04-22"
+      },
+      {
+        "startDate": "2024-04-25",
+        "endDate": "2024-04-27"
+      }
+    ]
+  }
+  
